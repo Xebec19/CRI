@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+*
+{
+    box-sizing: border-box;
 }
+.containerA
+{
+    display: flex;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    flex-wrap: warp;
+
+    flex-direction: column;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.boxA
+{
+  max-height: 400px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.boxA,
+.boxB
+{
+    width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+@media screen and (min-width: 500px)
+{
+    .containerA
+    {
+        max-height: 500px;
+        display: flex;
+        flex-direction: row;
+    }
+    .boxA,
+    .boxB
+    {
+        max-height: 500px;
+    }
+    .boxA{
+      width: 30%;
+    }
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul{
+list-style-position: outside; /*so the word break wont set word immediately below the item markers*/
 }
