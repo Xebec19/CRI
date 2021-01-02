@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .App{
-  background-image: linear-gradient(white, yellow);
+  background-image: linear-gradient(white, #FFEB03);
 }
 .containerA
 {
