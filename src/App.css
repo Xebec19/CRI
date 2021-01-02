@@ -1,41 +1,73 @@
-*
+        *
 {
+    font-family: Ariel;
+
     box-sizing: border-box;
+}
+.App{
+  background-image: linear-gradient(white, yellow);
 }
 .containerA
 {
     display: flex;
+    flex-direction: column;
 
     flex-wrap: warp;
-
-    flex-direction: column;
 }
 .boxA
 {
-  max-height: 400px;
+    max-height: 400px;
 }
 .boxA,
 .boxB
 {
     width: 100%;
 }
-@media screen and (min-width: 500px)
+@media screen and  (min-width: 500px)
 {
     .containerA
     {
-        max-height: 500px;
         display: flex;
         flex-direction: row;
+
+        max-height: 500px;
     }
     .boxA,
     .boxB
     {
         max-height: 500px;
     }
-    .boxA{
-      width: 30%;
+    .boxA
+    {
+        width: 30%;
     }
 }
-ul{
-list-style-position: outside; /*so the word break wont set word immediately below the item markers*/
+@media screen and (max-width: 400px)
+{
+  #contacts{
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    width: 100%;
+  }
+  span{
+    word-break: break-all;
+  }
+}
+ul
+{
+    list-style-position: outside; /*so the word break wont set word immediately below the item markers*/
+}
+
+#contacts
+{
+    background-color: #C22424;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 5rem;
+}
+#contacts > span{
+  color: white;
 }

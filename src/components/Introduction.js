@@ -44,7 +44,7 @@ wordBreak                                                                  :"bre
 className="dtc v-mid tc ">
 <img 
 src={img2}
-className="f6 f2-m f-subheadline-l fw6 tc"
+className="f6 f2-m f-subheadline-l fw6 tc dim"
 style={{
 maxHeight                                                                  :"325px",
 width                                                                      :"100%"
@@ -53,7 +53,7 @@ id='gallery'
 alt='Gallery' /> {/*Image of gallery*/}
 
 <p>
-Government of India has awarded the "National Energy Conservation Award 2018". Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.
+Government of India has awarded the <strong>"National Energy Conservation Award 2018"</strong>. Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.
 </p>
 
 </span>
